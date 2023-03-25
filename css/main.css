@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito&family=Roboto:ital@1&display=swap");
+
+.radial-gradient{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+nav img {
+  width: 150px;
+  margin-bottom: 30px;
+  position: sticky;
+}
+
+.Font1 {
+    font-size: 1.5rem;
+  }
+
+#botonera ul li a:active {
+    font-weight: 700;
+  }
+#botonera ul li a:active:hover {
+    color: #292829;
+  }
+
+h1 {
+    color: #80436d;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+h2 {
+    font-size: 3rem;
+    color: rgba(54, 7, 44, 0.781);
+    font-weight: 200;
+    font-family: "Nunito", sans-serif;
+  }
+
+h3 {
+    font-size: 2.5rem;
+    font-family: "Roboto", sans-serif;
+  }
+
+h4 {
+    font-size: 2rem;
+    color: #80436d;
+  }
+
+.btn-comprar {
+    border-radius: 3px;
+    border: solid;
+}
+
+.btn-comprar:hover{
+  background-color: #e991f1;
+  color: #75357a;
+}
+
+.btn-vaciar {
+  border-radius: 3px;
+  border: solid;
+  font-size: 1.5rem;
+  background-color: rgba(238, 188, 247, 0.7);
+}
+
+.centrar{
+  text-align: center;
+  margin: auto;
+}
+
+.btn-vaciar:hover{
+background-color: #e991f1;
+color: #75357a;
+}
+
+.sticky-top{
+  position: sticky;
+  top: 0;
+  width: 100%
+}
+
+#botonera ul li a:active{
+  font-weight: bold;
+
+}
+
+#botonera ul li a:hover{
+  color: #292829;
+}
+
+nav img {
+      width: 150px;
+      margin-bottom: 30px;
+  }
+
+  .pad{
+    margin: 10px
+  }
+
+  .bg-violet{
+    background-color: rgba(238, 188, 247, 0.7);
+    }
+
+.cart{
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(238, 188, 247, 0.7);
+}
+
+.servicio-carrito{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.center{
+  text-align: center;
+  font-weight: 350;
+  color: rgba(0, 0, 0, 0.781);
+}
+
+.car-img{
+  width: 10%;
+}
+
+.btn-color{
+  background-color:rgba(112, 52, 99, 0.781);
+  color: black;
+}
+x
+.servicio-detalle{
+  color: rgb(68, 41, 68);
+  font-weight: bold;
+}
+
+#remove-Product{
+  width: 100%;
+}
+
+.final {
+  font-size: 2rem;
+    color: rgba(54, 7, 44, 0.781);
+    font-weight: 250;
+    font-family: "Nunito", sans-serif;
+    background-color: rgb(199, 190, 190);
+}
+
+.fondo{
+  background-color: #e0c7e2;
+}
+
+.btntoastify{
+  background: #75357a;
+  color: white;
+  font-weight: 400;
+}
+

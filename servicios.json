@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1, 
+        "nombre":"Catering", 
+        "precio": 7000,
+        "imagen": "./imagenes/catering.jpg"
+    },
+    {
+        "id": 2, 
+        "nombre": "Decoración", 
+        "precio": 1000,
+        "imagen": "./imagenes/decoracion.jpg"
+    },
+    {
+        "id": 3, 
+        "nombre": "Musicalización", 
+        "precio": 800,
+        "imagen": "./imagenes/musicalizacion.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Animación",
+        "precio": 700,
+        "imagen": "./imagenes/animacion.jpg"
+    },
+    {
+        "id": 5, 
+        "nombre": "Mesa Dulce", 
+        "precio": 1800,
+        "imagen": "./imagenes/mesadulce.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Cotillón",
+        "precio": 1500,
+        "imagen": "./imagenes/cotillon.jpeg"
+    },
+    {
+        "id": 7, 
+        "nombre": "Decoración + Cotillón + Animación", 
+        "precio": 2600,
+        "imagen": "./imagenes/combo1.jpg"
+    },
+    {
+        "id": 8, 
+        "nombre": "Decoración + Musicalización", 
+        "precio": 1500,
+        "imagen": "./imagenes/combo2.jpeg"
+    },
+    {
+        "id": 9, 
+        "nombre": "Todos nuestros servicios", 
+        "precio": 11200,
+        "imagen": "./imagenes/combo3.png"
+    }
+]
