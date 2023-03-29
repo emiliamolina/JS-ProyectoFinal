@@ -68,6 +68,7 @@ const cargarCarrito = (indice) => {
 const modeloDeCarrito = document.getElementById("carrito")
 
     const dibujarCarrito = () => {
+        modeloDeCarrito.textContent = ''
         carritoFinal.forEach((elemento, indice) => {
         const containerCarrito = document.createElement("div") 
         containerCarrito.classList.add("servicio-carrito", "servicio-detalle", "cart")
@@ -115,10 +116,10 @@ botonVaciar.addEventListener('click', () => {
 
 function vaciarCarrito () {
     carritoFinal = []
-    console.log(carritoFinal)
-    actualizarStorage(carritoFinal)
     localStorage.clear()
     dibujarCarrito()
+    actualizarStorage()
+    invitados = 0
     }
 
 const actualizarStorage = (carritoFinal) =>{
@@ -130,6 +131,5 @@ if(localStorage.getItem("invitados") && localStorage.getItem("carrito")){
     invitados = Number(personas)
     console.log(invitados)
     carritoFinal = JSON.parse(localStorage.getItem("carrito"))
-    console.log(carritoFinal)
     dibujarCarrito()
 }
